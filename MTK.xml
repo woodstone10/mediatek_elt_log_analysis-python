@@ -1,0 +1,64 @@
+<NotepadPlus>
+    <UserLang name="MTK" ext="" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="no" allowFoldOfComments="no" foldCompact="no" forcePureLC="0" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="no" Keywords4="no" Keywords5="no" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments"></Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2"></Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2"></Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1"></Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">&quot;cell_detected=KAL_FALSE&quot;&#x000D;&#x000A;&quot;pass?[KAL_FALSE],&quot;&#x000D;&#x000A;&quot;support?[KAL_FALSE]&quot;&#x000D;&#x000A;&quot;cell_status=ENASAS_CELL_STATUS_NO_CELL&quot;&#x000D;&#x000A;&quot;result=ENASAS_AC_BARRED&quot;&#x000D;&#x000A;&quot;Remove NR cell&quot;&#x000D;&#x000A;&quot;ESM_MSG_PDN_DISCONNECT_REJECT&quot;&#x000D;&#x000A;&quot;ESM_MSG_DEACTIVATE_EPS_BEARER_CONTEXT_REQUEST&quot;&#x000D;&#x000A;&quot;ESM_MSG_PDN_DISCONNECT_REQUEST&quot;&#x000D;&#x000A;&quot;EM_EMM_MAINSTATE_EMM_DEREGISTERED&quot;&#x000D;&#x000A;&quot;cell failed:&quot;&#x000D;&#x000A;&quot;MSG_ID_EMM_CALL_EVALIF_RACH_REJECT_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_EVAL_EMM_RACH_REJECT_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_L4C_EVAL_RACH_REJECT_IND&quot;&#x000D;&#x000A;&quot;result=ENASAS_CONN_FAIL&quot;&#x000D;&#x000A;&quot;establish_result=NRRC_EST_FAIL_NORMAL&quot;&#x000D;&#x000A;&quot;result=IMS_RCODE_ERROR&quot;&#x000D;&#x000A;&quot;CSIM fdn:1, enable:1&quot;</Keywords>
+            <Keywords name="Keywords2">&quot;ESM_MSG_ACTIVATE_DEDICATED_EPS_BEARER_CONTEXT_REQUEST&quot;&#x000D;&#x000A;&quot;ESM_MSG_ACTIVATE_DEDICATED_EPS_BEARER_CONTEXT_ACCEPT&quot;&#x000D;&#x000A;&quot;5GMM_SERVICE_REQUEST (NAS message container included: KAL_TRUE, service type: VGMM_SERVICE_TYPE_MT_SERVICE)&quot;&#x000D;&#x000A;&quot;5GMM_SERVICE_REQUEST (NAS message container included: KAL_FALSE, service type: VGMM_SERVICE_TYPE_MT_SERVICE)&quot;&#x000D;&#x000A;&quot;irat_type=IR_TYPE_REDIRECT&quot;&#x000D;&#x000A;&quot;vg_ims_3gpp_ind=N1_IMS_VOPS_SUPPORT_OVER_3GPP_ACCESS&quot;&#x000D;&#x000A;&quot;ebi[0]=5&quot;&#x000D;&#x000A;&#x000D;&#x000A;&quot;result=EL1_STATUS_SUCCESS&quot;&#x000D;&#x000A;&quot;rslt[ERRC_CEL_EXEC_RSLT_CELLJ_SUITABLE_SELECTABLE],&quot;&#x000D;&#x000A;&quot;cell_detected=KAL_TRUE&quot;&#x000D;&#x000A;&quot;pass?[KAL_TRUE],&quot;&#x000D;&#x000A;&quot;support?[KAL_TRUE]&quot;&#x000D;&#x000A;&quot;cell_status=ENASAS_CELL_STATUS_SUITABLE_CELL&quot;&#x000D;&#x000A;&quot;result=ENASAS_EST_SUCCESS&quot;&#x000D;&#x000A;&quot;establish_result=NRRC_EST_SUCCESS&quot;&#x000D;&#x000A;&quot;(redirectedCarrierInfo[1],&quot;&#x000D;&#x000A;&quot;5GMM_REGISTRATION_REQUEST&quot;&#x000D;&#x000A;&quot;Add NR cell&quot;&#x000D;&#x000A;&quot;cs_state=REG_STATE_REGISTERED&quot;&#x000D;&#x000A;&quot;ps_state=REG_STATE_REGISTERED&quot;&#x000D;&#x000A;&quot;eventB1_NR&quot;</Keywords>
+            <Keywords name="Keywords3">&quot;5GMM_REGISTRATION_REJECT&quot;&#x000D;&#x000A;&quot;irat_result=IR_RESULT_FAILURE&quot;&#x000D;&#x000A;&quot;result=PLMN_NOT_FOUND&quot;&#x000D;&#x000A;&quot;5GMM_DEREGISTRATION_REQUEST&quot;&#x000D;&#x000A;&quot;5GMM_AUTHENTICATION_FAILURE&quot;&#x000D;&#x000A;&#x000D;&#x000A;&quot;CA combination not supported&quot;&#x000D;&#x000A;&#x000D;&#x000A;&quot;RF configuration invalid:&quot;&#x000D;&#x000A;&#x000D;&#x000A;&quot;MSG_ID_NRRC_NL1_RLF_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_ERRC_ERLC_RLF_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_ERRC_CHM_CONN_RLF_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_EMM_ERRC_OOS_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_ERRC_MOB_CEL_OOS_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_EMM_ERRCIF_PLMNSEL_OOS_IND&quot;&#x000D;&#x000A;&quot;Start MOB_REJ_CELL timer.&quot;&#x000D;&#x000A;&quot;startT3402()&quot;&#x000D;&#x000A;&quot;VGMM_3GPP_T3502_TIMER_ID timer starts,&quot;&#x000D;&#x000A;&quot;ESM_MSG_PDN_CONNECTIVITY_REJECT&quot;&#x000D;&#x000A;&quot;MSG_ID_ESMREG_PDN_CONN_EST_REJ&quot;</Keywords>
+            <Keywords name="Keywords4">&quot;5GMM_REGISTRATION_ACCEPT&quot;&#x000D;&#x000A;&quot;cell select:&quot;&#x000D;&#x000A;&quot;irat_result=IR_RESULT_SUCCESS&quot;&#x000D;&#x000A;&quot;result=PLMN_FOUND&quot;&#x000D;&#x000A;&quot;new PLMN:&quot;&#x000D;&#x000A;&quot;EMM_Attach_Complete&quot;&#x000D;&#x000A;&quot;GMM__ATTACH_COMPLETE&quot;</Keywords>
+            <Keywords name="Keywords5">&quot;[ERRC_TIMER_CONN_AFR_EXPR] start,&quot;&#x000D;&#x000A;&quot;[ERRC_TIMER_CONN_AFR_EXPR] timeout&quot;&#x000D;&#x000A;&quot;MSG_ID_EMM_ERRC_LOCAL_RELEASE_TRIGGER_IND&quot;&#x000D;&#x000A;&quot;MSG_ID_NWSEL_NAS_SV_BACKGROUND_BAND_LEARNING_REQ&quot;&#x000D;&#x000A;&quot;MSG_ID_NAS_SV_ERRC_BACKGROUND_BAND_LEARNING_REQ&quot;</Keywords>
+            <Keywords name="Keywords6">OTA:</Keywords>
+            <Keywords name="Keywords7">4GOTA:</Keywords>
+            <Keywords name="Keywords8">5GOTA:</Keywords>
+            <Keywords name="Delimiters"></Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="0000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="FF0000" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="0000FF" bgColor="FFFF80" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="000000" bgColor="8080C0" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="80FFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FF8080" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
