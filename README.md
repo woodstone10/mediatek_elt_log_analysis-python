@@ -1,5 +1,7 @@
 # An Efficient 5G/LTE Log Analyis with Automatic Parser and Visualization
 
+Run automatically analyze MTK logs, then show analysis data as shown below
+
 Cell information
 ![image](https://user-images.githubusercontent.com/77954837/115098539-8369d400-9f6b-11eb-90e7-23e1433b8be9.png)
 
